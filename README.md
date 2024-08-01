@@ -1,6 +1,6 @@
 # CleverFit: Your Personal Fitness Companion
 
-![CleverFit Logo](.src/assets/images/logoDefault.png)
+![CleverFit Logo](src/assets/images/logoDefault.png)
 
 ## About CleverFit
 
