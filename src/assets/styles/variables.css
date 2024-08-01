@@ -1,0 +1,86 @@
+:root {
+    /* colors */
+    --character-light-title: #262626;
+    --character-light-primary: #262626;
+    --character-light-secondary: #8c8c8c;
+    --character-light-disable: #bfbfbf;
+    --character-light-border: #d9d9d9;
+    --character-light-dividers: #f0f0f0;
+    --character-light-background: #f5f5f5;
+    --character-light-table-header: #fafafa;
+    --character-light-error: #ff4d4f;
+    --character-light-red: rgba(246, 177, 178, 0.35);
+    --character-light-link: #1890ff;
+    --color-tags-borders: #ADC6FF;
+    --character-light-primary-inverse: #fff;
+    --primary-light: #f0f5ff;
+    --primary-light-blue: #2f54eb;
+    --primary-blue: #061178;
+    --disabled-light-grey: rgba(0, 0, 0, 0.25);
+    --backdrop-filter-color: rgba(121, 156, 212, 0.5);
+    --color-primary-black: #000000;
+    --color-primary-white: #ffffff;
+    --color-dark-blue: #030852;
+    --color-blue: #1d39c4;
+    --color-shadow:  rgba(0, 0, 0, 0.15);
+    --inactive-bg-color: rgba(255, 251, 251, 0.6);
+    --primary-light-9: #061178;
+
+    /* typography */
+    --font-size-xs: 12px;
+    --font-size-base: 14px;
+    --font-size-sm: 16px;
+    --font-size-md: 20px;
+    --font-size-lg: 24px;
+    --font-size-xl: 38px;
+    --font-size-xxl: 80px;
+    --font-weight-base: 400;
+    --font-weight-bold: 500;
+    --font-weight-s-bold: 600;
+    --font-weight-x-bold: 700;
+    --line-height-base: 1.3;
+
+    /* spacing */
+    --padding-none: 0;
+    --padding-xx-sm: 4px;
+    --padding-x-sm: 6px;
+    --padding-sm: 8px;
+    --padding-base: 12px;
+    --padding-x-base: 24px;
+    --padding-lg: 16px;
+    --padding-x-lg: 32px;
+    --padding-x-md: 42px;
+    --padding-md: 48px;
+    --padding-xx-lg: 54px;
+    --padding-xxx-lg: 64px;
+    --padding-xl: 85px;
+    --margin-xs: 8px;
+    --margin-ss: 10px;
+    --margin-xss: 14px;
+    --margin-sm: 16px;
+    --margin-xsm: 17px;
+    --margin-lg: 19px;
+    --margin-xl: 24px;
+    --margin-xxl: 30px;
+    --margin-x-xl: 32px;
+    --margin-xx-xl: 48px;
+    --margin-form-lg: 70px;
+    --margin-form-xlg: 94px;
+    --margin-form-xx-lg: 112px;
+    --margin-top-xxl: 130px;
+    --gap-x-lg: 200px;
+    --margin-none: 0;
+
+    /*border-radius*/
+    --br-base: 2px;
+    --br-medium: 6px;
+    --br-lg: 8px;
+    --br-xl: 24px;
+
+    /*sizing*/
+    --button-height: 40px;
+    --input-height: 40px;
+    --width-base: 368px;
+    --window-max-width: 1440px;
+    --window-max-height: 100vh;
+}

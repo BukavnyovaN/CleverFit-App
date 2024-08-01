@@ -1,0 +1,133 @@
+div .ant-picker-cell .ant-picker-cell-inner {
+    position: revert;
+}
+
+.cell-modal__wrapper-right {
+    width: 264px;
+    position: absolute;
+    padding: var(--padding-base);
+    border-radius: var(--br-base);
+    background: var(--character-light-primary-inverse);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    top: 1px;
+    left: 4px;
+}
+
+.cell-modal__wrapper-left {
+    width: 264px;
+    position: absolute;
+    padding: 12px;
+    border-radius: var(--br-base);
+    background: var(--character-light-primary-inverse);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    top: 1px;
+    right: 4px;
+}
+
+.cell-modal__mobile {
+    width: 312px;
+    position: absolute;
+    border-radius: var(--br-base);
+    padding: var(--padding-lg) var(--padding-base);
+    background: var(--character-light-primary-inverse);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    z-index: 3;
+}
+
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+
+.top {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.create-training__wrapper {
+    display: flex;
+    padding: 20px 0;
+    width: 264px;
+    height: 53px;
+    align-items: center;
+}
+
+.cell-modal__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 4px;
+    color: var(--color-primary-black);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+    overflow: unset;
+}
+
+.cell-modal__message {
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--character-light-secondary);
+}
+
+.cell-modal__trainings {
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--character-light-dividers);
+}
+
+.cell-modal__training-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell-modal__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 12px;
+    border-bottom: 1px solid var(--character-light-dividers);
+}
+
+div > .cell-modal__button {
+    width: 100%;
+}
+
+div .cell-modal__mobile > div > .cell-modal__button{
+    width: 100%;
+}
+
+.create-training__buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.fulfilled-exercise > .ant-badge-status-text {
+    color: var(--character-light-secondary);
+}
+
+@media only screen and (max-width: 480px) {
+    .create-training__wrapper {
+        display: flex;
+        width: 100%;
+        height: unset;
+        align-items: center;
+        padding: 0 0 12px 0;
+        border-bottom: 1px solid var(--character-light-dividers);
+    }
+
+    .cell-modal__training-items {
+        padding: 12px 0;
+        color: var(--character-light-secondary);
+    }
+
+}
+

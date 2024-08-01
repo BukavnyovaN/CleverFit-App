@@ -1,0 +1,30 @@
+.not-found-message__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: var(--br-lg);
+    margin:  var(--margin-xl) var(--margin-xl) var( --padding-x-md) var(--margin-xl);
+    background: var(--color-primary-white);
+}
+
+.not-found-message__wrapper > .result-message {
+    width: unset;
+}
+
+.not-found-message__wrapper > .result-message > div > .ant-result-subtitle {
+    max-width: unset;
+}
+
+.not-found-message__wrapper > .result-message > div > .ant-result-extra > .ant-btn-primary  {
+    width: unset;
+    margin-top: var(--margin-xl);
+    padding: 0 18px;
+}
+
+@media only screen and (max-width: 480px) {
+    .not-found-message__wrapper {
+        margin: var(--margin-xl) var(--margin-none);
+        height: 90vh;
+    }
+}

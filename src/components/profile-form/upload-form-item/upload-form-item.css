@@ -1,0 +1,31 @@
+.upload__button-desktop {
+    height: 100%;
+    padding: 0 var(--padding-lg);
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.ant-upload-picture-card-wrapper {
+    display: block;
+    width: unset;
+    align-self: flex-start;
+    margin-right: var(--margin-xl);
+}
+
+.upload__button-mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload__button-mobile span {
+    font: var(--font-size-xs);
+}
+
+@media only screen and (max-width: 500px) {
+    .upload__button-mobile {
+        gap: var(--margin-xxl);
+    }
+}

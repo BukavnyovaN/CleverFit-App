@@ -1,0 +1,21 @@
+.profile-form__personal-info-inputs{
+    width: 340px;
+}
+
+.profile-form__personal-info-inputs > div {
+    margin-bottom: var(--margin-none);
+}
+
+.profile-form__personal-info-inputs .ant-input {
+    height: 40px;
+}
+
+.ant-picker-input > input {
+    height: 32px;
+}
+
+@media only screen and (max-width: 500px) {
+    .profile-form__personal-info-inputs {
+        width: 312px;
+    }
+}

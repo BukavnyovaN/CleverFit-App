@@ -1,0 +1,39 @@
+.ant-list-items {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--padding-x-base);
+}
+
+.join-tarining__user-list > div > .ant-list-pagination {
+    text-align: left;
+}
+
+.join-tarining__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--padding-x-lg);
+}
+
+.join-tarining__search-input > span > .ant-input-group-addon {
+    height: unset;
+}
+
+.join-tarining__search-btn {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    padding: var(--padding-none);
+}
+
+.join-tarining__search {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: var(--gap-x-lg);
+}
+
+.join-tarining__search-input {
+    max-width: 484px;
+}

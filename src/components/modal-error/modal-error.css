@@ -1,0 +1,24 @@
+.modal-error > .ant-modal-content > .ant-modal-body {
+    padding: var(--padding-none);
+}
+
+.modal-error__result > .ant-result-extra {
+    margin-top: var(--margin-xl);
+    display: flex;
+    flex-direction: row;
+    gap: var(--padding-sm);
+}
+
+.modal-error__result > div > .ant-btn-primary {
+    margin: var(--margin-none);
+    width: 180px;
+    height: 40px;
+    background: var(--primary-light-blue);
+}
+
+
+.modal-error__result > div > .ant-btn-default {
+    width: 180px;
+    height: 40px;
+}
+

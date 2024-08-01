@@ -1,0 +1,111 @@
+@import "./assets/styles/variables.css";
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: var(--font-weight-base);
+    max-width: var(--window-max-width);
+    margin: var(--margin-none) auto;
+
+    color: rgba(255, 255, 255, 0.87);
+    background-color: var(--character-light-primary-inverse);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+    -webkit-transition-delay: 9999s;
+    font-size: var(--font-size-sm);
+}
+
+a {
+    color: var(--primary-light-blue);
+    text-decoration: inherit;
+    padding: var(--padding-none);
+    margin: var(--margin-none);
+}
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: var(--margin-none);
+    place-items: center;
+    min-width: 320px;
+    min-height: var(--window-max-height);
+}
+
+h1 {
+    padding: var(--padding-none);
+    margin: var(--margin-none);
+}
+
+h2 {
+    font-size: var(--font-size-md);
+    text-align: left;
+    margin: var(--margin-none);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
+    padding: var(--padding-none);
+}
+
+ul
+{
+    list-style: none;
+    padding: var(--padding-none);
+    margin: var(--margin-none);
+}
+
+button {
+    border-radius: var(--br-lg);
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+p{
+    padding: var(--padding-none);
+    margin: var(--margin-none);
+}
+
+input {
+    all: unset;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: var(--character-light-primary-inverse);
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    h2 {
+        padding: 0 2% 0 0;
+    }
+}

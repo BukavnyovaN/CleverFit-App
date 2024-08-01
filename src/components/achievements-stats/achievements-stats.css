@@ -1,0 +1,49 @@
+.achievements-week__stats {
+    margin: var(--padding-x-base) var(--margin-none);
+    display: flex;
+    gap: var(--padding-x-base);
+}
+
+.achievements-week__stats-data {
+    font-weight: var(--font-weight-x-bold);
+    font-size: var(--font-size-xl);
+}
+
+.achievements-week__stats-card {
+    padding: var(--padding-x-base);
+    text-align: center;
+    border: 1px solid var(--character-light-dividers);
+    border-radius: var(--br-base);
+    box-shadow: 0 2px 8px 0 #00000026;
+}
+
+.achievements-week__stats-title {
+    color: var(--character-light-secondary);
+    width: 106px;
+}
+
+@media (max-width: 840px) {
+    .achievements-week__stats {
+        flex-wrap: wrap;
+        max-width: 65%;
+    }
+}
+
+@media (max-width: 400px) {
+    .achievements-week__stats {
+        max-width: 100%;
+        margin: var(--padding-x-lg) var(--margin-none);
+    }
+
+    .achievements-week__stats-card {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--padding-base);
+    }
+
+    .achievements-week__stats-title {
+        width: unset;
+    }
+}

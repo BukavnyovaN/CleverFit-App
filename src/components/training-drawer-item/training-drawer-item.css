@@ -1,0 +1,44 @@
+.drawer-item__exercises {
+    display: flex;
+    gap: var(--padding-x-lg);
+}
+
+.drawer-item__count {
+    display: flex;
+    align-items: end;
+}
+
+.drawer-item__multiple{
+    margin: var(--padding-x-sm);
+    color: var(--character-light-disable);
+}
+
+.drawer-item__exercises-title{
+    border-bottom: 1px solid var(--character-light-dividers);
+    margin: var(--padding-x-sm) var(--padding-none);
+    padding: var(--padding-none) var(--padding-sm);
+    width: 89px;
+    height: 24px;
+    background: var(--character-light-dividers);
+}
+
+.drawer-item__exercises-input > div > .ant-input-number-input{
+    height: 24px;
+}
+
+.trainings-item__wrapper {
+    padding-top: var(--margin-xl);
+}
+
+.ant-input-number-handler-wrap {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .drawer-item__exercises {
+        display: flex;
+        gap: var(--padding-base);
+    }
+
+}

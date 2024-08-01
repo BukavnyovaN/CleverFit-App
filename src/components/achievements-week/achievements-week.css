@@ -1,0 +1,39 @@
+.achievements-week__tags {
+    display: flex;
+    justify-content: start;
+    gap: var(--margin-lg);
+    margin-bottom: var(--padding-x-base);
+}
+
+.achievements-week__avg-load{
+    display: flex;
+    align-items: start;
+    gap: 150px;
+}
+
+.achievements-week__chart {
+    border: 1px solid var(--character-light-dividers);
+    border-radius: var(--br-base);
+}
+
+.achievements-week__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-x-base);
+}
+
+.achievements-week__chart {
+    max-width: 100%;
+}
+
+.achievements-week__label {
+    text-wrap: nowrap;
+}
+
+@media (max-width: 840px) {
+    .achievements-week__avg-load{
+        flex-wrap: wrap;
+        gap: var(--padding-x-base);
+    }
+}
+

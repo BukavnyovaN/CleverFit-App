@@ -1,0 +1,25 @@
+.tariffs-payment-modal {
+    color: var(--character-light-secondary);
+}
+
+.tariffs-payment-modal span {
+    font-weight: var(--font-weight-x-bold);
+}
+
+.tariffs-payment-modal__content{
+    margin: var(--margin-x-xl);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-x-base);
+}
+
+h3 {
+    margin-bottom: var(--margin-none);
+}
+
+.tariffs-payment-modal__icon {
+    font-size: var(--font-size-xxl);
+    margin: var(--margin-none) auto;
+    color: var(--primary-light-blue);
+}

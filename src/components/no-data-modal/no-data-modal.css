@@ -1,0 +1,29 @@
+.modal-no-feedbacks > .ant-modal-content > .ant-modal-body {
+    padding: var(--padding-none);
+}
+
+.modal-no-feedbacks__result > .ant-result-extra {
+    margin-top: var(--margin-xl);
+    display: flex;
+    flex-direction: row;
+    gap: var(--padding-sm);
+}
+
+.modal-no-feedbacks__result > div > .ant-btn-primary {
+    margin: var(--margin-none);
+    width: 180px;
+    height: 40px;
+    background: var(--primary-light-blue);
+}
+
+
+.modal-no-feedbacks__result > div > .ant-btn-default {
+    width: 180px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-no-feedbacks__result > .ant-result-subtitle {
+        width: 200px;
+    }
+}

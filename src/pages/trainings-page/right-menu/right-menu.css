@@ -1,0 +1,35 @@
+.drawer__additional-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--padding-base);
+}
+
+div > .button_save {
+    width: 100%;
+}
+
+.joint-training-user {
+    display: flex;
+    gap: var(--margin-ss);
+    margin-bottom: var(--padding-base);
+    align-items: center;
+}
+
+.joint-training-user__exercise {
+    margin-left: auto;
+}
+
+.drawer-mobile > div > .ant-drawer-content {
+    border-radius: var(--padding-x-base) var(--padding-x-base) var(--padding-none) var(--padding-none);
+}
+
+.drawer-mobile > .ant-drawer-content-wrapper {
+    border-radius: var(--padding-x-base) var(--padding-x-base) var(--padding-none) var(--padding-none);
+}
+
+@media (max-width: 400px) {
+    .ant-checkbox-wrapper > span {
+        font-size: var(--font-size-xs);
+    }
+}

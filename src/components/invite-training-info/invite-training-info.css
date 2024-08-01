@@ -1,0 +1,49 @@
+.invite-trining-info__card {
+    position: absolute;
+    width: 312px;
+    top: 80px;
+    padding: 0;
+    z-index: 2;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.invite-trining-info__card > .ant-card-body {
+    padding: 0;
+}
+
+.invite-trining-info__title {
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--character-light-border);
+}
+
+.invite-trining-info__title-wrapper {
+    display: flex;
+    justify-content: start;
+    gap: var(--padding-base);
+}
+
+.invite-trining-info__body {
+    padding: var(--padding-base) var(--padding-base) var(--padding-x-base);
+}
+
+.invite-trining-info__date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invite-trining-info__exercise {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invite-trining-info__name {
+    color: var(--character-light-secondary);
+}
+
+.invite-trining-info__approaches {
+    color: var(--primary-light-blue);
+}

@@ -1,0 +1,15 @@
+.enter-via-google-button {
+    height: var(--button-height);
+}
+
+.enter-via-google__wrapper {
+    width: var(--width-base);
+    height: var(--button-height);
+    display: block;
+}
+
+@media only screen and (max-width: 400px) {
+    .enter-via-google-button .anticon {
+        display: none;
+    }
+}

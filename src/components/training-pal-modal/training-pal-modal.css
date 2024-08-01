@@ -1,0 +1,58 @@
+.training-pal__info {
+    padding: var(--padding-base) 0 var(--padding-x-lg) 0;
+}
+
+.training-pal__status {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: var(--padding-base);
+    font-size: var(--font-size-xs);
+}
+
+.training-pal__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: var(--padding-sm);
+}
+
+.training-pal__training {
+    display: flex;
+    gap: var(--padding-base);
+}
+
+.training-pal__info-names {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-x-sm);
+    color: var(--character-light-secondary);
+    font-size: var(--padding-base);
+}
+
+.training-pal__info-data {
+    color: var(--primary-light-blue);
+    font-weight: var(--font-weight-bold);
+}
+
+@media (max-width: 500px) {
+    .training-pal-modal {
+        max-width: 312px;
+    }
+
+    .training-pal__info {
+        padding: var(--padding-none);
+    }
+    .training-pal__training {
+        padding: var(--padding-base) var(--padding-none);
+    }
+
+    .training-pal__actions {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: var(--padding-base);
+    }
+    .training-pal__status {
+        text-align: center;
+    }
+}

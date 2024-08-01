@@ -1,0 +1,9 @@
+.achievements__tags .ant-tag-checkable {
+    border: 1px solid var(--character-light-dividers);
+}
+
+.achievements__tags .ant-tag-checkable-checked {
+    border: 1px solid var(--color-tags-borders);
+    background-color: var(--primary-light);
+    color: var(--primary-light-blue);
+}

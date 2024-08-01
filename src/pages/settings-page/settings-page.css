@@ -1,0 +1,59 @@
+.settings__wrapper {
+    padding: var(--padding-x-base);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: var(--padding-x-base);
+    height: 100%;
+    border-radius: var(--br-lg);
+    margin: var(--margin-xl) var(--margin-xl) var(--padding-x-md) var(--margin-xl);
+    background: var(--color-primary-white);
+}
+
+.settings__buttons {
+    padding-top: var(--padding-base);
+    margin-top: var(--margin-xx-xl);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--padding-base);
+}
+
+div > .settings__button {
+    margin: var(--margin-none);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: unset;
+}
+
+@media (max-width: 500px) {
+    .settings__buttons {
+        flex-direction: column;
+        padding-top: var(--padding-base);
+        width: 100%;
+    }
+
+    .settings__button {
+        width: 100%;
+    }
+
+    .settings__wrapper {
+        border-radius: unset;
+        margin: var(--margin-xl) 0;
+    }
+
+    .settings__buttons {
+        padding-top: var(--padding-xx-sm);
+        margin-top: 0;
+    }
+
+    div > .settings__button {
+        margin: var(--margin-none);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}

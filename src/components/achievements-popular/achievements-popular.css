@@ -1,0 +1,22 @@
+.achievements-popular__wrapepr {
+    display: flex;
+    flex-direction: column;
+    gap: var( --padding-lg);
+}
+
+.achievements-popular__content {
+    display: flex;
+    align-items: center;
+    gap: var( --padding-lg);
+}
+
+.achievements-popular__title {
+    width: 188px;
+    text-align: left;
+    color: var(--character-light-secondary);
+}
+
+.achievements-popular__data {
+    font-weight:var(--font-weight-bold);
+    font-size: var(--font-size-lg);
+}

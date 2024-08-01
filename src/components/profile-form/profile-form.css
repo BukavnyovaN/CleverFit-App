@@ -1,0 +1,101 @@
+.profile-form__wrapper {
+    padding: var(--padding-x-base);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: var(--padding-x-base);
+    height: 100%;
+    border-radius: var(--br-lg);
+    margin: var(--margin-xl) var(--margin-xl) var(--padding-x-md) var(--margin-xl);
+    background: var(--color-primary-white);
+}
+
+.profile-form__avatar {
+    align-self: flex-start;
+}
+
+.profile-form__wrapper > .ant-form-horizontal {
+    width: 480px;
+}
+
+.profile-form__personal-info > div > div > div > .ant-form-item-control-input-content {
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.personal-info__datepicker{
+    width: 100%;
+}
+
+.profile-form__subtitle {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-sm);
+    line-height: 1.3;
+    color: var( --character-light-title);
+    margin-bottom: var(--margin-xl);
+}
+
+.profile-form__button-text{
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-base);
+    line-height: 1.3;
+    text-align: center;
+    color: var(--character-light-secondary);
+}
+
+
+.profile-form__personal-info {
+    margin-bottom: var(--margin-xl);
+}
+
+.ant-form-item-control-input-content > .profile-form__submit-button {
+    width: 206px;
+    height: 40px;
+}
+
+.profile-form__alert {
+    width: 395px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .profile-form__wrapper > .ant-form-horizontal {
+        width: 312px;
+    }
+
+    .profile-form__personal-info > div > div > div > .ant-form-item-control-input-content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .profile-form__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: unset;
+        margin: var(--margin-xl) var(--margin-none) ;
+    }
+
+    .ant-form-item-control-input-content > .profile-form__submit-button {
+        width: 100%;
+    }
+
+    .ant-form-item-control-input-content > span {
+        width: 100%;
+    }
+
+    .profile-form__avatar {
+        width: 100%;
+    }
+
+    .ant-upload-list-item-name {
+        visibility: hidden;
+    }
+
+    .profile-form__alert {
+        width: 95%;
+        position: absolute;
+        bottom: 80px;
+    }
+}

@@ -1,0 +1,59 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 254px;
+    padding: var(--padding-base);
+
+    &>div {
+        padding: var(--padding-none);
+    }
+}
+
+.user-card__blue {
+    background-color: var(--character-light-table-header);
+}
+
+.user-card__gray {
+    height: 194px;
+    background-color: var(--character-light-table-header);
+}
+
+.user-card__statuses {
+    display: flex;
+    justify-content: center;
+    gap: var(--padding-base);
+    padding-top: var(--padding-xx-sm);
+    align-items: center;
+}
+
+.user-card__indicators {
+    padding-top: var(--padding-x-sm);
+}
+
+.user-card__indInfo {
+    color: var(--character-light-secondary)
+}
+
+.user-card__training {
+    color: var(--primary-light-blue);
+    font-weight: var(--font-weight-bold);
+}
+
+@media (max-width: 400px) {
+    .user-card {
+        width: 100%;
+    }
+
+    .user-card__blue {
+        padding-bottom: var(--padding-x-lg);
+    }
+
+    .user-card__gray {
+        padding-bottom: var(--padding-x-md);
+    }
+
+    .training-pals__pals-list {
+        margin-bottom: var(--padding-x-base);
+    }
+}

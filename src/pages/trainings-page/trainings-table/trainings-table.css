@@ -1,0 +1,49 @@
+tr > .table-edit-action {
+    background: none;
+    border: none;
+}
+
+.ant-table table {
+    border-spacing: 10px;
+}
+
+.ant-table-cell {
+    font-size: var(--font-size-sm);
+}
+
+.ant-table-thead > tr > th {
+    padding: var(--padding-xx-sm) var(--padding-lg);
+}
+
+.ant-table-tbody > tr > td {
+    padding: var(--padding-none);
+}
+
+.table__badge {
+    margin-left: var(--padding-xx-sm);
+}
+
+.ant-table-thead > tr > th:last-child {
+    background: var(--color-primary-white);
+    border: none;
+}
+
+.ant-table-tbody > tr > td:last-child {
+    border: none;
+}
+
+.ant-table-tbody > tr > td {
+    background: var(--color-primary-white);
+}
+
+@media (max-width: 400px) {
+    .ant-table-thead > tr > th{
+        font-size: var(--font-size-xs);
+        font-weight: var(--font-weight-base);
+    }
+
+    .ant-table-thead > tr > th:last-child {
+        background: var(--character-light-table-header);
+        border-bottom: 1px solid var(--character-light-dividers);
+    }
+}

@@ -1,0 +1,29 @@
+div .login__helpers{
+    margin: var(--margin-none);
+}
+
+.ant-form-item-control-input-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form-forgot{
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-base);
+}
+
+.login-form{
+    margin-bottom: var(--margin-form-xlg);
+}
+
+@media only screen and (max-width: 400px) {
+    .login-form-forgot{
+        font-size: var(--font-size-base);
+    }
+
+    .login-form{
+        margin-bottom: var(--margin-form-lg);
+    }
+}

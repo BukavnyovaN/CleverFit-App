@@ -1,0 +1,82 @@
+.ant-tabs {
+    max-width: var(--width-base);
+}
+
+.ant-tabs-nav-list {
+    width: var(--width-base);
+}
+
+.ant-tabs-tab {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ant-tabs-tab + .ant-tabs-tab {
+    margin: var(--margin-none);
+}
+
+.ant-tabs-top > .ant-tabs-nav {
+    margin-bottom: var(--margin-x-xl);
+}
+
+.auth-page{
+    max-width: var(--window-max-width);
+    height: var(--window-max-height);
+    background: url("../../assets/images/loginBackground.png") no-repeat center/cover;
+}
+
+.auth-page__wrapper{
+    max-width: var(--window-max-width);
+    width: 100%;
+    height: var(--window-max-height);
+    backdrop-filter: blur(5px);
+    background: var(--backdrop-filter-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-page__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: var(--br-base);
+    padding: var(--padding-xxx-lg)
+    var(--padding-xl)
+    48px 85px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background: var(--character-light-primary-inverse);
+}
+
+.auth-page__logo {
+    width: 309px;
+    height: 76px;
+    margin-bottom: var(--margin-xx-xl);
+}
+
+.auth-page__logo img{
+ max-width: 99%;
+
+}
+
+@media only screen and (max-width: 400px) {
+    .auth-page__logo {
+        width: 203px;
+        height: 50px;
+        margin-bottom: var(--margin-x-xl);
+    }
+
+    .auth-page__form {
+        padding: var(--padding-x-lg) var(--padding-lg);
+    }
+
+    .ant-tabs {
+        max-width: 296px;
+    }
+
+    .ant-tabs-top > .ant-tabs-nav {
+        margin-bottom: var(--margin-xl);
+    }
+}

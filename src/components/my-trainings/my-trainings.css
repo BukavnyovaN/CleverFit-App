@@ -1,0 +1,42 @@
+.my-trainings__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: var(--margin-top-xxl);
+}
+
+.my-trainings__empty-title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--padding-x-base);
+    line-height: var(--line-height-base);
+    text-align: center;
+}
+
+div > .my-trainings__empty-button {
+    width: 174px;
+}
+
+.my-trainings__table {
+    width: 610px;
+}
+
+@media (max-width: 400px) {
+    .my-trainings__table {
+        max-width: 100%;
+    }
+
+    .my-trainings__empty-title {
+        padding: var(--margin-form-lg) var(--padding-none);
+    }
+
+    div > .my-trainings__empty-button {
+        width: 100%;
+        margin: var(--padding-base) var(--padding-none);
+    }
+
+    div > .ant-table-thead > tr > th:last-child {
+        color: rgba(0, 0, 0, 0.85);
+        background: var(--character-light-table-header);
+        border-bottom: 1px solid var(--character-light-dividers);
+    }
+}

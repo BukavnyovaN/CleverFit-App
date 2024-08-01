@@ -1,0 +1,17 @@
+.result-page{
+    max-width: var(--window-max-width);
+    height: var(--window-max-height);
+    background: url("../../../assets/images/loginBackground.png") no-repeat center/cover;
+}
+
+.result-page__wrapper{
+    max-width: var(--window-max-width);
+    width: 100%;
+    height: var(--window-max-height);
+    backdrop-filter: blur(5px);
+    background: var(--backdrop-filter-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

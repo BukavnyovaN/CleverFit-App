@@ -1,0 +1,47 @@
+div > .ant-layout {
+    min-height: none;
+}
+
+.feedbacks__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbacks__items {
+    max-height: 500px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedbacks__content {
+    margin: var(--margin-xl);
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbacks__buttons {
+    margin-top: var(--margin-form-xx-lg);
+    margin-bottom: var(--margin-sm);
+}
+
+.view-all__button > span {
+   font-size: var(--font-size-sm);
+   color: var(--primary-light-blue);
+}
+
+@media only screen and (max-width: 768px) {
+    .feedbacks__buttons {
+        margin-top: var(--margin-xx-xl);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feedbacks__items {
+        max-height: 600px;
+    }
+}

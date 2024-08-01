@@ -1,0 +1,107 @@
+.header__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: var(--padding-lg) var(--padding-none);
+}
+
+.header__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-none);
+}
+
+.header__nav{
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+}
+
+.header__heading{
+    font-weight: var(--font-weight-x-bold);
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-base);
+    margin: var(--margin-none);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-right: var(--padding-md);
+}
+
+.header__settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: var(--padding-sm);
+    padding: var(--padding-sm);
+    font-weight: var(--font-weight-x-bold);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    text-align: center;
+}
+
+.header-profile__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-profile__settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: var(--padding-sm);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    cursor: pointer;
+
+}
+
+.header-setting__wrapper {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-base);
+    color: var(--character-light-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--padding-lg);
+}
+
+@media only screen and (max-width: 835px) {
+    .header__heading{
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-lg);
+        margin: var(--margin-none);
+        padding-right: 2%;
+    }
+
+    .header__settings .anticon-setting{
+        display: none;
+    }
+
+    .header__settings {
+        font-weight: var(--font-weight-base);
+        font-size: var(--font-size-base);
+        line-height: var(--line-height-base);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header__heading{
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-md);
+        margin-top: var(--margin-lg);
+        padding-right: var(--padding-x-lg);
+    }
+
+    .header__settings {
+        padding: var(--padding-x-lg);
+    }
+}

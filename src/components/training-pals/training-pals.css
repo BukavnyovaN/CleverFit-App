@@ -1,0 +1,24 @@
+.training-pals {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--margin-xxl);
+}
+
+.training-pals__title {
+    margin-bottom: var(--margin-xs);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--character-light-title);
+}
+
+.training-pals__empty {
+    color: var(--character-light-secondary);
+}
+
+@media (max-width: 500px) {
+    .training-pals__title {
+        text-align: center;
+        padding-bottom: var(--margin-xs);
+    }
+}

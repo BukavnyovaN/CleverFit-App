@@ -1,0 +1,1 @@
+https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&client_id=1087040770498-7kje8trslsupp97rjrpmkse7t6rde5cm.apps.googleusercontent.com&prompt=select_account&redirect_uri=https%3A%2F%2Fmarathon-api.clevertec.ru%2Fauth%2Fgoogle%2Fcallback&scope=profile%20email&state=undefined&service=lso&o2v=2&theme=glif&flowName=GeneralOAuthFlow

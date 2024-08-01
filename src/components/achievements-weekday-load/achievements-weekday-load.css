@@ -1,0 +1,77 @@
+.achievements-week__week {
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-base);
+}
+
+.achievements-week__weekday-item {
+    display: flex;
+    gap: var(--padding-lg);
+    align-items: center;
+}
+
+.achievements-week__weekday-item .ant-badge-not-a-wrapper .ant-scroll-number {
+    width: 20px;
+    margin: var(--margin-none);
+}
+
+.achievements-week__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements-week__weekday {
+    color: var(--character-light-secondary);
+}
+
+.achievements-week__load {
+    font-weight: var(--font-weight-x-bold);
+}
+
+.achievements-week__month {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--margin-form-xlg);
+}
+
+.achievements-week__month-heading {
+    margin-bottom: var(--padding-sm);
+}
+
+.achievements-week__month-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-base);
+}
+
+.achievements-week__weekday-title {
+    max-width: 194px;
+    margin-bottom: var(--margin-lg);
+}
+
+@media (max-width: 840px) {
+    .achievements-week__weekday-title {
+        max-width: 500px;
+    }
+    .achievements-week__week {
+        max-width: 300px;
+    }
+
+    .achievements-week__weekday-item {
+        width: 200px;
+    }
+
+    .achievements-week__month {
+        gap: var(--padding-x-base);
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
+    .achievements-week__month-column{
+        width: 100%;
+    }
+}
+

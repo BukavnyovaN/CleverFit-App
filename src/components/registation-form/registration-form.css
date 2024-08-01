@@ -1,0 +1,19 @@
+.input-wrapper{
+    width: var(--width-base);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-lg);
+}
+
+div .ant-form-item-explain {
+    font-size: var(--font-size-xs);
+}
+
+.ant-input-group-addon, .ant-input-password, #basic_username {
+    height: var(--input-height);
+}
+
+.ant-form-item-control, .ant-form-item {
+    margin-bottom: var(--margin-sm);
+}
+

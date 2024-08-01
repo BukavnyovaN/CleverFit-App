@@ -1,0 +1,21 @@
+.achievements-month__chart {
+    border: 1px solid var(--character-light-dividers);
+    margin-bottom: var(--padding-x-base);
+    border-radius: var(--br-base);
+    max-width: 100%;
+}
+
+.achievements-month__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-x-base);
+}
+
+.achievements-month__tags {
+    display: flex;
+    gap: var(--padding-base);
+}
+
+.achievements-month__label {
+    text-wrap: nowrap;
+}

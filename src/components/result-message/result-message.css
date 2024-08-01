@@ -1,0 +1,83 @@
+.result-message {
+    background-color: var(--character-light-primary-inverse);
+    border-radius: var(--br-base);
+    width: 539px;
+}
+
+.ant-result-title {
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
+}
+
+.ant-result-subtitle{
+    max-width: var(--width-base);
+    margin: var(--margin-none) auto;
+    line-height: var(--line-height-base);
+}
+
+.ant-result{
+    padding: var(--padding-xxx-lg) var(--padding-x-lg);
+}
+
+div > .ant-btn-primary {
+    margin-top: var(--margin-xsm);
+    background-color: var(--primary-light-blue);
+    border-color: var(--primary-light-blue);
+    height: var(--button-height);
+    width: var(--width-base);
+}
+
+.ant-result-icon{
+    margin-top: var(--margin-xs);
+}
+
+.ant-result-500 > .ant-result-extra > .ant-btn-primary{
+    width: unset;
+}
+
+.ant-result-500 > .ant-result-subtitle {
+    max-width: unset;
+}
+
+.ant-result-500 {
+    padding:var(--padding-xxx-lg)
+            var(--padding-x-lg)
+            var(--padding-xx-lg)
+            var(--padding-x-lg);
+}
+
+.ant-result-500 > .ant-result-icon {
+    margin-top: var(--margin-none);
+}
+
+@media only screen and (max-width: 600px) {
+    .result-message {
+        width: 328px;
+    }
+
+    .ant-result-500 {
+        padding:var(--padding-xxx-lg)
+                var(--padding-x-lg)
+                var(--padding-xx-lg)
+                var(--padding-x-lg);
+    }
+
+    .ant-result{
+        padding: var(--padding-x-lg) var(--padding-lg);
+    }
+
+    div > .ant-btn-primary {
+        height: var(--button-height);
+        width: 296px;
+    }
+
+    .ant-result-subtitle{
+        max-width: 296px;
+        margin: var(--margin-none) auto;
+        padding: var(--padding-none) var(--padding-x-sm);
+        line-height: var(--line-height-base);
+        font-weight: var(--font-weight-base);
+        font-size: var(--font-size-base);
+        text-align: center;
+    }
+}

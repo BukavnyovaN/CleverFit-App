@@ -1,0 +1,61 @@
+.exercises-stats__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.achievements-week__stats-item {
+    display: flex;
+    gap: var(--padding-lg);
+    align-items: center;
+}
+
+.exercises-stats__week {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-base);
+}
+
+.exercises-stats__weekday-item {
+    display: flex;
+    gap: var(--padding-base);
+    align-items: center;
+}
+
+.exercises-stats__load {
+    font-weight: var(--font-weight-bold);
+    text-align: left;
+    width: 50%;
+}
+
+.achievements-week__stats-item .ant-badge-not-a-wrapper .ant-scroll-number {
+    width: 20px;
+    margin: var(--margin-none);
+}
+
+.achievements-week__title {
+    max-width: 194px;
+    margin-bottom: var(--margin-lg);
+}
+
+@media (max-width: 840px) {
+    .exercises-stats__wrapper{
+        flex-direction: column;
+    }
+
+    .exercises-stats__week{
+        width: 350px;
+        align-self: flex-start;
+    }
+
+    .achievements-week__stats-item {
+        width: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .exercises-stats__week {
+        padding-bottom: var(--padding-base);
+    }
+}

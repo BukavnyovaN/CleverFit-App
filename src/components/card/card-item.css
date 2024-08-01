@@ -1,0 +1,22 @@
+.card__button {
+    padding: var(--padding-none) var(--padding-sm);
+    color: var(--primary-light-blue);
+    cursor: pointer;
+}
+
+.ant-card-head-title {
+    padding: var(--padding-base) var(--padding-none);
+}
+
+@media only screen and (max-width: 835px) {
+    .ant-card-head-title {
+        white-space: pre-wrap ;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ant-card-head-title {
+        text-align: center ;
+    }
+}

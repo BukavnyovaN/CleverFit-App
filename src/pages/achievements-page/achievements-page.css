@@ -1,0 +1,52 @@
+.achievements__wrapper {
+    padding: var(--padding-x-base);
+    height: 100%;
+    border-radius: var(--br-lg);
+    margin: var(--margin-xl) var(--margin-xl) var(--padding-x-md) var(--margin-xl);
+    background: var(--color-primary-white);
+}
+
+.achievements__wrapper > .ant-tabs {
+    max-width: none;
+}
+
+.achievements__tabs > div > div > div > .ant-tabs-tab {
+    padding: var(--padding-none);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--padding-x-base);
+    line-height: var(--line-height-base);
+    color: var(--color-primary-black);
+}
+
+.achievements__wrapper .ant-tabs-nav-list > .ant-tabs-tab:nth-child(-n+2) {
+    margin-right: 220px;
+}
+
+@media (max-width: 840px) {
+    .ant-tabs-tab-btn {
+        font-size: var(--font-size-base);
+        padding: var(--padding-sm);
+    }
+
+    .achievements__wrapper .ant-tabs-nav-list > .ant-tabs-tab:nth-child(-n+2) {
+        margin-right: var(--margin-none);
+    }
+}
+
+@media (max-width: 400px) {
+    .ant-tabs-tab-btn {
+        font-size: var(--font-size-base);
+        padding: var(--padding-sm);
+    }
+
+    .achievements__wrapper .ant-tabs-nav-list > .ant-tabs-tab:nth-child(-n+2) {
+        margin-right: var(--margin-none);
+    }
+
+    .achievements__wrapper {
+        margin-left: var(--margin-none);
+        margin-right: var(--margin-none);
+        border-radius: unset;
+        padding:  var(--padding-base);
+    }
+}

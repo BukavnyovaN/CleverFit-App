@@ -1,0 +1,29 @@
+.marathons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 15vh;
+    height: 100%;
+    text-align: center;
+}
+
+.marathons__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--padding-base);
+}
+
+.marathons__title {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--padding-x-base);
+    line-height: var(--line-height-base);
+    color: var(--primary-light-9);
+}
+
+.marathons__description {
+    text-align: center;
+    color: var(--character-light-secondary);
+}

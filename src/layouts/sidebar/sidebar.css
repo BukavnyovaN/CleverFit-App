@@ -1,0 +1,55 @@
+div > #sider-button {
+    font-size: var(--font-size-sm);
+    width: 20px;
+    height: 66px;
+    position: absolute;
+    border: none;
+    right: -20px;
+    top: 50%;
+    background-color: var(--character-light-primary-inverse);
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+}
+
+.sider__logo-default{
+    max-width: 133px;
+    height: 33px;
+    margin: var(--margin-xss) var(--margin-lg);
+}
+
+.sider__logo {
+    text-align: center;
+    margin: var(--margin-xxl) var(--margin-none);
+}
+
+.sider_logout-btn{
+    padding: var(--padding-sm) var(--padding-lg);
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-height: var(--button-height);
+    min-height: var(--button-height);
+    gap: var(--margin-ss);
+    border-top: 1px solid var(--character-light-dividers);
+}
+
+.sider_logout-btn p{
+    padding: var(--padding-x-sm) var(--padding-lg);
+}
+
+.sider_logout-btn span {
+    padding: var(--padding-x-sm) var(--padding-none);
+}
+
+.sider_logout-btn:hover{
+    cursor: pointer;
+}
+
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item .ant-menu-item-icon {
+    line-height: 0;
+}
+
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item .anticon {
+    line-height: 0;
+}
+

@@ -1,0 +1,38 @@
+.training-modal {
+    position: absolute;
+    background: var(--color-primary-white);
+    z-index: 1;
+    width: 241px;
+    left: 15px;
+    top: 0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.training-modal__wrapper {
+    display: flex;
+    gap: var(--padding-base);
+    align-items: center;
+    padding: var(--padding-lg);
+    height: 53px;
+}
+
+.training-modal__training-items {
+    padding: var(--padding-lg);
+    color: var(--character-light-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-xx-sm);
+}
+
+.training-modal__buttons {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-lg);
+}
+
+@media (max-width: 400px) {
+    .training-modal {
+        width: 337px;
+        left: 0;
+    }
+}

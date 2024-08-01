@@ -1,0 +1,42 @@
+.tariffs-switchers__form {
+    padding: var(--padding-base) var(--padding-none);
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    width: 100%;
+    gap: var(--padding-x-sm);
+}
+
+.tariffs-switchers__switcher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tariffs-switchers__content {
+    font-weight: var(--font-weight-x-bold);
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    gap: var(--padding-xx-sm);
+}
+
+.tariffs-switchers__info {
+    font-size: var(--font-size-sm);
+    color: var(--character-light-secondary);
+    cursor: pointer;
+}
+
+div .tariffs-switchers__switcher {
+    margin: var(--margin-none);
+}
+
+.tariffs-switchers__switcher > div > .ant-form-item-control {
+    margin: var(--margin-none);
+}
+
+@media (max-width: 500px) {
+    .tariffs-switchers__title {
+        max-width: 176px;
+    }
+}

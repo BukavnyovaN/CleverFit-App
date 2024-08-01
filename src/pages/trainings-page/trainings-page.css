@@ -1,0 +1,61 @@
+.trainings__wrapper {
+    padding: var(--padding-x-base);
+    height: 100%;
+    border-radius: var(--br-lg);
+    margin: var(--margin-xl) var(--margin-xl) var(--padding-x-md) var(--margin-xl);
+    background: var(--color-primary-white);
+}
+
+.trainings__wrapper > .ant-tabs {
+    max-width: none;
+}
+
+.ant-tabs-nav-list {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.trainings__tabs > div > div > div > .ant-tabs-tab {
+    padding: var(--padding-none);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--padding-x-base);
+    line-height: var(--line-height-base);
+    color: var(--color-primary-black);
+}
+
+.ant-badge-not-a-wrapper .ant-scroll-number {
+    width: 30px;
+    margin-left: var(--margin-xs);
+}
+
+.ant-tabs-nav-list {
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 834px) {
+    .ant-tabs-tab-btn {
+        font-weight: var(--font-weight-base);
+        font-size: var(--font-size-base);
+    }
+}
+
+@media (max-width: 400px) {
+    .ant-tabs-tab-btn {
+        font-size: var(--font-size-base);
+        padding: var(--padding-sm);
+    }
+
+    .trainings__wrapper {
+        margin-left: var(--margin-none);
+        margin-right: var(--margin-none);
+        height: 100%;
+        padding:  var(--padding-base);
+    }
+
+    .ant-badge-not-a-wrapper .ant-scroll-number {
+        width: 18px;
+        margin-left: var(--padding-xx-sm);
+    }
+}
+

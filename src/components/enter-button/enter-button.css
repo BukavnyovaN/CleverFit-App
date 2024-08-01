@@ -1,0 +1,28 @@
+
+
+div.enter, div.enter-via-google {
+    margin-bottom: var(--margin-none);
+}
+
+div .ant-form-item-control-input-content > .enter-button {
+    background-color: var(--primary-light-blue);
+    border-color: var(--primary-light-blue);
+    height: var(--button-height);
+    margin-top: var(--margin-sm);
+}
+
+.enter-button > span {
+    font-size: var(--margin-sm);
+}
+
+div .ant-form-item-control-input-content > .ant-btn[disabled] {
+    color: var(--disabled-light-grey);
+    border-color: var(--character-light-border);
+    background: var(--character-light-background);
+}
+
+@media only screen and (max-width: 400px) {
+    div .ant-form-item-control-input-content > .enter-button {
+        margin-top: var(--margin-xs);
+    }
+}
