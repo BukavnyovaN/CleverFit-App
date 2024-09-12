@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 export default defineConfig(({ command }) => ({
-    base: '/CleverFit-App',
+    base: '/CleverFit-App/',
     plugins: [react()],
     server: {
         host: true,
