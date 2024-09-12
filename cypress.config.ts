@@ -1,5 +1,6 @@
 import { defineConfig } from 'cypress';
 
+// @ts-ignore
 export default defineConfig({
     video: false,
     e2e: {

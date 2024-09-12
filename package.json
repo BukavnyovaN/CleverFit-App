@@ -10,9 +10,10 @@
   },
   "scripts": {
     "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "lint:css": "stylelint ./src/**/*.css",
     "lint:scripts": "eslint ./ ./src/ --ext .js,.jsx,.ts,.tsx",
