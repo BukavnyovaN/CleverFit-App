@@ -1,7 +1,9 @@
 import { Avatar, Card, Rate } from 'antd';
 import { StarFilled, StarOutlined, UserOutlined } from '@ant-design/icons';
+import { Nullable } from "../../types/nullable.type.ts";
 
 import './feedback-item.css';
+
 
 type FeedbackItemProps = {
     rating: number;

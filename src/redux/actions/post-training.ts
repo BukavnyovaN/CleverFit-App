@@ -5,6 +5,7 @@ import axios from 'axios';
 import { ENDPOINTS } from '@constants/endpoints.ts';
 import { AccessToken } from '../../enums/access-token.enum.ts';
 import { NewTraining } from '@utils/helpers/generate-trainings-data.ts';
+import { Nullable } from "../../types/nullable.type.ts";
 
 type PostTrainingPayload = {
     accessToken: Nullable<string>;

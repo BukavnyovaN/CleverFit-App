@@ -1,4 +1,4 @@
-import { Nullable } from '@types/nullable.type.ts';
+import { Nullable } from './nullable.type.ts';
 
 export type Feedback = {
     id: Nullable<string>;
